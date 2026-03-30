@@ -1,0 +1,60 @@
+#Javascript ¿que es el DOM?
+
+El Modelo de Objetos del Docmento (DOM, por sus siglas en Ingles) conecta paginas web a scripts o lenguajes de programacion
+al representar la estructura de un documento, como el HTML que representa una pagina web. en la memoria. Por lo general se
+refiere a JavaScript, aunque el modelado de documentos HTML, SVG o XML como objetos no forma parte del lenguaje principal de
+JavaScript.
+
+El DOM representa uun documentocon un arbol logico. Cada rama del arbol termina en un nodo y cada nodo contiene objetos. Los
+metodos DOM permiten el acceso programatico al arbol. Con ellos, puede cambiar la estructura, estilo o el contenido del documento.
+
+#Como se manipula el DOM?
+
+Para manipular el Dom, necesitamos acceder a sus elementos. Esto se puede hacer utilizando el document objet, que representa todo el 
+documento HTMl.
+
+ej:
+
+// Accessing an element by its ID
+const headerElement = document.getElementById('header');
+
+// Accessing elements by class name
+const paragraphs = document.getElementsByClassName('paragraph');
+
+// Accessing elements by tag name
+const images = document.getElementsByTagName('img');
+
+En el fragmento de codigo anterios, se usa (getElementById), (geElementsByClassName), Y (getElementByTagName) para recuperar elementos
+especificos. Los valores devueltos pueden almacenar variables para su posterior manipulacion.
+
+#Como modificar el contenido de un elementos
+
+Una vez que tenemos acceso a un elemento, podemos modificar su contenido utilizando la propiedad (innerHTMl):
+
+ej:
+
+// Modifying the content of an element
+headerElement.innerHTML = 'New Header Text';
+
+En el ejemplo anterior, cambiamos el contenido (headerElement) a (NewHeader Text). Esta es una forma sencilla
+pero eficaz de actualizar un texto dentro de un elemento
+
+#Como cambiar el contenido o estilo de una pagina usando DOM
+
+Podemos usar la propiedad (Style) de un elemento para cambiar su apariencia, veamos un ejemplo de como cambiarle el color a un parrafo al
+hacer click en un boton
+
+ej:
+
+// Accessing a paragraph element
+const myParagraph = document.getElementById('myParagraph');
+
+// Accessing a button element
+const colorButton = document.getElementById('colorButton');
+
+// Adding a click event listener to the button
+colorButton.addEventListener('click', function() {
+    // Changing the color style of the paragraph
+    myParagraph.style.color = 'blue';
+
+En este ejemplo se hace click en el boton con el ID (colorButton), el color del texto del parrafo con el ID (myParagraph) cambia a azul

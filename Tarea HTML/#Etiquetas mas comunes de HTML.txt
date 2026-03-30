@@ -1,0 +1,201 @@
+#Etiquetas mas comunes de HTML
+
+<!DOCTYPE Html> indica al navegador que utilice los metodos de renderizado estandar
+
+ej: se utiliza en todos los documentos HTML5 que indica al navegador que archivo utilizar
+
+<body> </body> Al contrario que la etiqueta de metadatos <head>, todo lo que quieras mostrar en la página web debe ir recogido dentro de las etiquetas de apertura y cierre de <body>. Este contenido será el que se muestre en la web
+
+ej: los articulos de wikipedia, articulos de noticias en donde va el texto   
+
+<nav> </nav> Usadas para definir el contenido que será la sección de navegación de la web
+
+ej: se usa en wikipedia, wikifandom, newgrounds para ir a otra parte de la pagina 
+
+<main> </main> Se usa para definir el contenido principal del documento. Solamente puede existir uno por documento
+
+ej: se usa en wikipedia, wikifandom para definir el contenido principal del articulo
+
+<section> </section> Define una sección del documento
+
+ej: se utiliza en wikipedia, wikifandom para definir la seccion de un documento
+
+<article> </article> Define contenido independiente de la web
+
+ej: se usa en wikipedia, wikifandom para estructurar informacion
+
+<aside> </aside> Dentro de estas etiquetas suele alojarse el contenido adicional de la web. Suele ser contenido relacionado con la web pero de poca importancia
+
+ej: se usa en wikipedia, wikifandom para poner barras laterales
+
+<h1>,<h2>,<h3>,<h4>,<h5>,<h6> Son usadas para jerarquizar el contenido de la web. Las etiquetas se usan para explicar brevemente el contenido que irá a continuación
+
+ej: se usa en wikipedia, wikifandom para usarse como titulos principales, secundarios, sub titulares, etc    
+
+<header> </header> Se usan para definir la cabecera de la página web. Suele contener el logotipo, menú de navegación, etc
+
+ej: se utiliza en youtube, wikipedia, wikifandom, newgrounds para los logos
+
+<footer> </footer>  Sirve para incluir información de copyright, enlaces legales y datos de contacto, mejorando la estructura
+
+ej: se utiliza en wikipedia, paginas de noticias, gamejolt, etc para dar informacion crucial como datos legales, redes sociales y politicas de la web
+
+<p> </p> Etiqueta usada para escribir párrafos de texto
+
+ej: se usa en wikipedia, wikifandom se usa para cerrar los parrafos
+
+<hr> Etiqueta utilizada para «romper» entre dos secciones de una web. Usada comúnmente como separador
+
+ej: se utiliza en wikipedia, wikifandom y paginas de noticias como separador de parrafos
+
+<pre> </pre> Usado para dejar un espacio o una sangria en los textos
+
+ej: se usa en wikipedia, wikifandom para dejar sangrias o espacios en ciertas partes del texto
+
+<blockquote> </blockquote> Se usan para indicar que el contenido es texto citado
+
+ej: se usa en wikipedia, wikifandom, paginas de noticias para citar textos mas largos como parrafos enteros
+
+<ol> </ol> define una lista ordenada, numerada o alfabéticamente, cuyos elementos (<li>) tienen un orden secuencial obligatorio, como pasos en una receta o rankings
+
+ej: se utiliza en wikifandom, wikipedia para hacer listas 
+
+<ul> </ul> Define una lista desordenada, mostrando los elementos con viñetas por defecto
+
+ej: se utiliza en wikipedia, wikifandom por si se quiere hacer listas desordenadas
+
+<li> </li> Etiquetas que recogen el contenido de un elemento de una lista, sea ordenada o no
+
+ej: se utiliza en wikipedia,  wikifandom por si se quiere definir cada elemento individual dentro de una lista sea ordenada o no
+
+<dl> </dl> define una lista de descripciones o definiciones, comúnmente usada para glosarios, metadatos o pares clave-valor
+
+ej: se utiliza en wikipedia, wikifandom para crear listas que asocian terminos con descripciones 
+
+<dt> </dt> se utiliza dentro de una lista de descripción (<dl>) para definir un término, palabra clave o ítem específico en un glosario o lista de metadatos
+
+ej: se utiliza en wikipedia, wikifandom para definir terminos, palabras clave o un items especificos en una lista de metadatos
+
+<dd> </dd> se utiliza para proporcionar la descripción, definición o valor de un término anterior (<dt>) dentro de una lista de descripción (<dl>)
+
+ej: se utiliza en wikipedia, wikifandom para definir o describir un termino en una lista de descripciones
+
+<figure> </figure> elemento semántico de HTML5 que agrupa contenido independiente, como imágenes, diagramas, códigos o videos, junto con un pie de foto opcional
+
+ej: se utiliza en wikipedia, wikifandom, paginas de noticias para poner imagenes 
+
+<figcaption> </figcaption> se utiliza para definir el título, leyenda o descripción de un elemento
+
+ej: se utiliza en wikipedia, wikifandom para añadir una descripcion a un elemento <figure>
+
+<div> </div> Etiqueta común utilizada para crear un contenedor genérico
+
+ej: se utiliza en wikipedia, wikifandom para agrupar otros elementos HTML
+
+<a> </a> Etiqueta utilizada para crear hiperenlaces en el documento HTML
+
+ej: se utiliza en wikipedia, wikifandom o cualquier otra pagina para poner hiperenlaces
+
+<strong> </strong> Etiqueta para definir una palabra o conjunto de ellas como importantes. Tiene una fuerte importancia en el SEO de la página
+
+ej: se utiliza en wikipedia, wikifandom para resaltar un texto
+
+<small> </small> Utilizada para dejar un comentario aparte, del tipo una nota de derechos de autoría, u otros textos que no son esenciales para la comprensión del documento
+
+ej: se utiliza en wikipedia, wikifandom para poner texto de un tamaño reducido
+
+<cite> </cite>  se utiliza para definir el título de una obra creativa (libro, película, canción, etc.) o una referencia a una fuente
+
+ej: se utiliza en wikipedia, wikifandom para citar un articulo de algo relacionado
+
+<sub> </sub> y <sup> </sup> Etiquetas utilizadas para representar un subíndice o superíndice
+
+ej: se utiliza en wikipedia, wikifandom para poner un texto subindice
+
+<mark> </mark> Usada para resaltar texto
+
+ej: se utiliza en wikipedia, wikifandom para resaltar el espacio entero del texto  en vez de solo hacer mas gruesas las letras
+
+<span> </span> Etiqueta HTML sin ningún significado específico. Se usa conjuntamente con los atributos «class» o «id» para atribuirle ciertas características.
+
+ej: se utiliza en wikifandom para aplicarles estilos a los textos
+
+<br> inserta un salto de línea en el texto sin iniciar un nuevo párrafo
+
+ej: se utiliza en wikipedia, wikifandom para hacer un salto de linea
+
+<img> es un elemento vacío utilizado para incrustar imágenes (fotos, iconos, gráficos) en una página web
+
+ej: se utiliza en wikipedia, wikifandom, newgrounds para incrustar imagenes
+ 
+<iframe> </iframe> Es una etiqueta que sirve para anidar otro documento HTML dentro del documento principal
+
+ej: se utiliza en wikipedia, wikifandom para incrustar un documento externo a la pagina
+
+<embed> es un elemento utilizado para incrustar contenido externo, interactivo o multimedia —como vídeos, audios, PDFs, mapas o animaciones— directamente en una página web
+
+ej: se utiliza en discord, wikipedia, wikifandom para incrustar contenido externo
+
+<object> </object> Utilizada llamar a un recurso externo de la web. Este recurso será tratado como una imagen, o un recurso externo para ser procesado por un plugin
+
+ej: se utiliza en wikipedia, wikifandom para incrustar recursos externos a una pagina web como lo serian PDFs
+
+<video> </video> Se usa para reproducir video en la página web junto a sus archivos de audio y capciones asociadas
+
+ej: se utiliza en wikipedia, wikifandom para incrustar videos
+
+<audio> </audio> Usada para cargar en una web un archivo de audio o stream de audio
+
+ej: se utiliza en wikipedia, wikifandom para incrustar audios
+
+<source> Permite a autores especificar recursos multimedia alternativos para las etiquetas de <video> o <audio>
+
+ej: se utiliza adentro de elementos <audio> <video> <image> para especificar multiples recursos
+
+<svg> </svg> Se usa para llamar a una imagen vectorizada
+
+ej: se utiliza en wikipedia, wikifandom para usar imagenes vectoriales
+
+<table> </table> Etiquetas de apertura y cierre de una tabla. El resto de etiquetas de la tabla han de ir siempre recogidas entre estas dos etiquetas
+
+ej: se utiliza en wikipedia, wikifandom para organizar datos en filas
+
+<caption> </caption> Usada para indicar el título de la tabla
+
+ej: se utiliza en wikipedia, wikifandom para ponerle el titulo a la tabla
+
+<colgroup> </colgroup> Etiqueta utilizada para agrupar dos o más columnas de una tabla
+
+ej: se utiliza en wikipedia, wikifandom para agrupar columnas de una tabla
+
+<tbody> </tbody> sirve para agrupar el contenido principal (cuerpo) de una tabla, separándolo del encabezado
+
+ej: se utiliza en wikipedia, wikifandom para agrupar el cuerpo de una tabla
+
+<thead> </thead> Define la fila superior que contiene los títulos de las columnas, permitiendo estructurar semánticamente la tabla
+
+ej: se utiliza en wikipedia, wikifandom para agrupar el contenido encabezado de una tabla
+
+<tfoot> </tfoot> Sirve para agrupar el contenido del pie de página en una tabla, definiendo una fila que resume o totaliza la información de las columnas
+
+ej: se utiliza en wikipedia, wikifandom para agrupar el contenido del pie de la tabla
+
+<tr> </tr> Se usa para indicar una fila de celdas de una tabla
+
+ej: se utiliza en wikipediam wikifandom para definir una fila horizontal de celdas de una tabla
+
+<td> </td> Usada para definir una celda de una tabla
+
+ej: se utiliza en wikipedia, wikifandom para definir una celda en una tabla
+
+<th> </th> Etiqueta que se usa para definir el encabezado de una celda 
+
+ej: se utiliza en wikipedia, wikifandom para definir el encabezado de una celda
+
+<form> </form> Etiqueta de apertura y cierre de un formulario de una página web. El resto de etiquetas de formulario deben ir siempre recogidas entre estas etiquetas de apertura y cierre de formulario
+
+ej: se utiliza en google forms para hacer formularios
+
+<fieldset> </fieldset> Etiqueta que representa un conjunto o agrupación de elementos de un formulario. «Pinta» un recuadro alrededor de las etiquetas que estén contenidas dentro del <fieldset>
+
+ej: se utiliza en google forms para la agrupacion de elementos de un formulario

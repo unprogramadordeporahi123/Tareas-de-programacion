@@ -1,0 +1,18 @@
+:root {
+
+    --color-primario: #d9534f;
+    --color-texto-claro: #ffffff;
+    --fuentes-titulos: 'Georgia', serif;
+}
+
+.boton-cancelar {
+    background-color: var(--color-primario);
+    color: var(--color-texto-claro);
+    font-family: var(--fuentes-titulos);
+}
+
+.boton-aceptar {
+     background-color: var(--color-primario);
+    color: var(--color-texto-claro);
+    font-family: var(--fuentes-titulos);
+}
